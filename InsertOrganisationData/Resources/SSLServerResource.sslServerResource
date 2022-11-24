@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmlns:keystore="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/cred/keystore" xmlns:sslserver="http://xsd.tns.tibco.com/bw/sharedresource/trinity/models/sslserver" xmi:id="_P9A38Vp0Ee2ckpkHA4rH-g" name="SSLServerResource" type="sslserver:SSLServerConfiguration">
+  <jndi:reference xmi:id="_Q_FY8Fp0Ee2ckpkHA4rH-g" key="identityStoreServiceProvider" type="keystore:KeystoreConfiguration" value="KeystoreProviderResource"/>
+  <jndi:configuration xsi:type="sslserver:SSLServerConfiguration" xmi:id="_P-kXIFp0Ee2ckpkHA4rH-g" keyAlias="santhosh" keyPassword="#!CDe+1cl8+vZocPDXiWojCghxsQpiU112"/>
+</jndi:namedResource>
